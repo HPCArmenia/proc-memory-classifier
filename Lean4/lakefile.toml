@@ -1,0 +1,10 @@
+name = "ProcMemoryStability"
+version = "0.1.0"
+defaultTargets = ["procmemorystability"]
+
+[[lean_lib]]
+name = "ProcMemoryStability"
+
+[[lean_exe]]
+name = "procmemorystability"
+root = "Main"
